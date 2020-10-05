@@ -1,0 +1,220 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* main */
+#main{
+  width: 1000px;
+  min-height: 600px;
+}
+
+#main #content{
+  width: 650px;
+  background: white;
+  float: left;
+  min-height: 400px;
+}
+
+#main #sidebar{
+  width: 250px;
+  float: left;
+  margin-left: 15px;
+  /* background-color: paleturquoise; */
+  margin-top: -35px;
+}
+
+#main #content ul{
+    margin: 0px;
+    padding: 15px;
+    border-top: 3px solid DeepSkyBlue;
+}
+
+#main #content ul li{
+  list-style: none;
+  clear: left;
+  border-bottom: 2px solid #ccc;
+  float: left;
+  margin-bottom: 20px;
+}
+
+#main #content ul li img{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+#main #content ul li h2{
+  font-size: 16px;
+  margin-top: 0px;
+  color: DeepSkyBlue;
+}
+
+#main{
+  margin-top: 15px;
+}
+
+#main #content ul li button{
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 2px ;
+    cursor: pointer;
+    height: 50px;
+}
+
+#main #content ul li #author{
+  display: block;
+  color: #999;
+}
+
+#main #sidebar #signupform{
+  background: orangered;
+  height: 400px;
+  min-height: 400px;
+  color: white;
+}
+
+#main #sidebar #newposts{
+  background: white;
+  height: 400px;
+  min-height: 400px;
+  padding: 15px;
+}
+
+#main #sidebar #signupform h2{
+  font-size: 16px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+#main #sidebar #signupform h2 p{
+  line-height: 0px;
+}
+
+#main #sidebar #signupform #reivew{
+  text-align: center;
+}
+
+#main #sidebar #signupform input[type=text], select {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-left: 30px;
+}
+
+#main #sidebar #signupform button{
+  background-color:white;
+  border: none;
+  color: red;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  height: 43px;
+  width: 187.5px;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+#main #sidebar #newposts #posts ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+#main #sidebar #newposts #posts ul li{
+  list-style: none;
+}
+
+#main #sidebar #newposts h3{
+  background: grey;
+  color: white;
+  height: 40px;
+  margin-top: 0px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 40px;
+  width: 250px;
+  margin-left: -15px;
+  text-indent: 15px;
+}
+
+#main #sidebar #newposts #posts ul li img{ 
+  height: auto; 
+  width: auto; 
+  max-width: 60px; 
+  max-height: 60px;
+  float: left;
+  margin-right: 5px;
+}
+
+#main #sidebar #newposts #posts ul li h2{ 
+  font-size: 10px;
+  margin-top: 0px;
+  color: black;
+}
+
+#main #sidebar #newposts #posts ul{
+  margin: 0px;
+  padding: 15px;
+}
+
+#main #sidebar #newposts #posts ul li{
+  list-style: none;
+  clear: left;
+  border-bottom: 2px solid #ccc;
+  float: left;
+  margin-bottom: 20px;
+}
+
+#main #sidebar #newposts #posts ul li #tacgia{ 
+  display: block;
+  color: #999;
+  text-align: left;
+  margin-left: 65px;
+  margin-bottom: 5px;
+}
