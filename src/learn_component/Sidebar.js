@@ -6,14 +6,11 @@ class Sidebar extends React.Component {
   render(){
     console.log(this)
     return( 
-        <div className="sidebar">
-          <h1>Sidebar</h1>
-          <div className="form-sign-up">
+        <div>
+          <div id="sidebar">
             <FormSignUp></FormSignUp>
-          </div>
-          <div className="new-post">
             <NewPost></NewPost>
-          </div>
+        </div>
         </div>
     )
   }
